@@ -96,3 +96,12 @@ header {
   font-weight: 400;
   color: var(--second-color);
 }
+
+/* == Post Filter == */
+.post-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin-top: 2rem !important;
+}
