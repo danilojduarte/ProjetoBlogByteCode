@@ -118,3 +118,9 @@ header {
 }
 
 /* == Post == */
+.post {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  justify-content: center;
+  gap: 1.5rem;
+}
