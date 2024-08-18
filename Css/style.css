@@ -124,3 +124,16 @@ header {
   justify-content: center;
   gap: 1.5rem;
 }
+.post-box {
+  background: var(--bg-color);
+  box-shadow: 0 4px 14px hsl(355deg, 25% 15% / 10%);
+  padding: 15px;
+  border-radius: 0.5rem;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
