@@ -195,3 +195,30 @@ header.shadow .logo {
   font-size: 0.82rem;
   font-weight: 500;
 }
+
+/* == Footer == */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.footer p {
+  font-size: 0.93rem;
+  color: var(--second-color);
+  font-weight: 500;
+}
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.social .bx {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  transition: 0.3s all linear;
+}
+.social .bx:hover{
+  color: var(--second-color);
+  transform: scale(1.4);
+}
