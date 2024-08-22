@@ -234,7 +234,7 @@ header.shadow .logo {
   margin: auto;
   width: 100%;
 }
-.heade-content {
+.header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -242,8 +242,9 @@ header.shadow .logo {
 }
 .back-home {
   color: var(--second-color);
-  font-size: 0.9rem;
+  font-size: 1rem;
   cursor: pointer;
+  font-weight: 500;
 }
 .header-title {
   width: 90%;
@@ -259,7 +260,7 @@ header.shadow .logo {
    object-position: center;
 }
 .post-content {
-  margin-top: 10rem !important;
+  margin-top: 15rem !important;
 }
 .sub-heading {
   font-size: 1.2rem;
@@ -269,4 +270,15 @@ header.shadow .logo {
   line-height: 1.7rem;
   margin: 1rem 0;
   text-align: justify;
+}
+
+/* Shares */
+.share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+.share-title {
+  font-size: 1.1rem;
 }
