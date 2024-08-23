@@ -282,3 +282,11 @@ header.shadow .logo {
 .share-title {
   font-size: 1.1rem;
 }
+
+/* Responsividade */ 
+@media (max-width: 1060px) {
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
