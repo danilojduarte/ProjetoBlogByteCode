@@ -1,7 +1,7 @@
 // Filter Js
 $(document).ready(function(){
   $('.filter-item').click(function(){
-    const value = $(this).attr('data-filter')
+    const value = $(this).attr('data-filter');
     if(value == 'all') {
       $('.post-box').show('1000');
     }
