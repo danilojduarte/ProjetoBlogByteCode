@@ -71,7 +71,7 @@ header.shadow .logo {
   color: var(--second-color);
 }
 .btn-contato {
-  padding: 8px 14px;
+  padding: 6px 10px;
   text-transform: uppercase;
   font-weight: 500;
   border-radius: 4px;
